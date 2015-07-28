@@ -17,7 +17,7 @@
 		var grid;
 		var domain;
 		var embedId = Math.floor((Math.random() * 999999) + 1);
-		var host = getHost(script);
+		var host = 'http://redditjs.com';
 
 		(function init() {
 
