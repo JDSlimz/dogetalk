@@ -34,7 +34,7 @@
 
 				//  /r/funny/top/day
 				if (domain !== null) {
-					base = "domain/" + domain
+					base = "domain/" + domain + '/v/' + subreddit
 				} else {
 					base = "r/" + subreddit
 				}
