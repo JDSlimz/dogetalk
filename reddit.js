@@ -1,4 +1,4 @@
-//subreddit widget
+//subreddit widget//
 (function() {
 	"use strict";
 
