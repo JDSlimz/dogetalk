@@ -34,12 +34,12 @@
 
 				//  /r/funny/top/day
 				if (domain !== null) {
-					base = "domain/" + domain + '/v/' + subreddit
+					base = domain + '/v/' + subreddit
 				} else {
-					base = "r/" + subreddit
+					base = host + "/r/" + subreddit
 				}
 
-				var embedUrl = host + '/' + base + '/' + sort + '/' + timeFrame + '?cssTheme=' + cssTheme + '&embedId=' + embedId + '#' + grid
+				var embedUrl = base + '/' + sort + '/' + timeFrame + '?cssTheme=' + cssTheme + '&embedId=' + embedId + '#' + grid
 
 				var iframeWrapper = document.createElement("div");
 				iframeWrapper.style.width = '100%'
