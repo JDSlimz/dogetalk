@@ -6,6 +6,14 @@
 </head>
 
 <body>
-<script src='reddit.js' data-subreddit='dogecoin' data-sort='new' data-subreddit-mode='large' ></script>
-<script src='reddit.js' data-domain='http://voat.co' data-subreddit='dogecoin' data-sort='new' data-subreddit-mode='large' ></script></body>
+<!-- <script src='reddit.js' data-subreddit='dogecoin' data-sort='new' data-subreddit-mode='large' ></script>
+<script src='reddit.js' data-domain='http://voat.co' data-subreddit='dogecoin' data-sort='new' data-subreddit-mode='large' ></script> -->
+ <script>
+ $.get('http://voat.co/v/dogecoin/new').then(function(responseData) {
+  //responseData is the contents of the other page. Do whatever you want with it.
+  //$('#someElem').append(responseData);
+  return responsedata;
+  });
+</script>
+</body>
 </html>
