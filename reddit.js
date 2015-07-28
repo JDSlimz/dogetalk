@@ -28,7 +28,7 @@
 				cssTheme = script.getAttribute('data-theme') || 'light'
 				sort = script.getAttribute('data-sort') || 'hot'
 				subreddit = script.getAttribute('data-subreddit') || 'front'
-				timeFrame = script.getAttribute('data-timeframe') || 'month'
+				timeFrame = script.getAttribute('data-timeframe') || ''
 				grid = script.getAttribute('data-subreddit-mode') || 'normal'
 				domain = script.getAttribute('data-domain') || null
 
