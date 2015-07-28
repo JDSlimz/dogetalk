@@ -39,7 +39,7 @@
 					base = "r/" + subreddit
 				}
 
-				var embedUrl = '//redditjs.com' + '/' + base + '/' + sort
+				var embedUrl = 'http://redditjs.com' + '/' + base + '/' + sort
 
 				var iframeWrapper = document.createElement("div");
 				iframeWrapper.style.width = '100%'
