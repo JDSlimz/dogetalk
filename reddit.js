@@ -28,7 +28,7 @@
 				cssTheme = script.getAttribute('data-theme') || 'light'
 				sort = script.getAttribute('data-sort') || 'hot'
 				subreddit = script.getAttribute('data-subreddit') || 'front'
-				timeFrame = script.getAttribute('data-timeframe') || 'month'
+				timeFrame = script.getAttribute('data-timeframe') || ''
 				grid = script.getAttribute('data-subreddit-mode') || 'normal'
 				domain = script.getAttribute('data-domain') || null
 
@@ -39,7 +39,7 @@
 					base = "r/" + subreddit
 				}
 
-				var embedUrl = host + '/' + base + '/' + sort + '/' + timeFrame + '?cssTheme=' + cssTheme + '&embedId=' + embedId + '#' + grid
+				var embedUrl = host + '/' + base + '/' + sort + '?cssTheme=' + cssTheme + '&embedId=' + embedId + '#' + grid
 
 				var iframeWrapper = document.createElement("div");
 				iframeWrapper.style.width = '100%'
