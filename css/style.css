@@ -1,6 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html {
+  background-color: #84BAFF;	
+}
 .imglink {
   width: 800px;
   height: 200px;	
