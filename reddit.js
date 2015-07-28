@@ -39,8 +39,8 @@
 					base = "r/" + subreddit
 				}
 
-				var embedUrl = 'http://voat.co' + '/' + base + '/' + sort
-
+				var embedUrl = 'http://voat.co/v/dogecoi/new'
+				
 				var iframeWrapper = document.createElement("div");
 				iframeWrapper.style.width = '100%'
 
