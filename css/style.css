@@ -4,6 +4,9 @@
 html {
   background-color: #84BAFF;	
 }
+body {
+  text-align: center;	
+}
 .imglink {
   width: 800px;
   height: 200px;	
